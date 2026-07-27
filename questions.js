@@ -70,7 +70,7 @@ const TOPICS = [
       { type: "fill", q: "It ___ (rain) a lot in April.", answers: ["rains"], exp: "it → rains." },
       { type: "fill", q: "They ___ (not / live) here anymore.", answers: ["don't live", "do not live"], exp: "they → don't + base verb." },
       { type: "fill", q: "He ___ (have) a house.", answers: ["has"], exp: "Irregular: have → has." },
-      { type: "mc", q: "Choose the correct question:", options: ["Does she works everyday?", "Does she work everyday?", "Do she work everyday?"], answer: "Does she work everyday?", exp: "Does + subject + base verb (no -s)." },
+      { type: "mc", q: "Choose the correct question:", options: ["Does she works every day?", "Does she work every day?", "Do she work every day?"], answer: "Does she work every day?", exp: "Does + subject + base verb (no -s)." },
       { type: "mc", q: "Choose the correct negative:", options: ["He don't like coffee.", "He doesn't likes coffee.", "He doesn't like coffee."], answer: "He doesn't like coffee.", exp: "doesn't + base verb, no extra -s." }
     ]
   },
@@ -82,7 +82,7 @@ const TOPICS = [
     questions: [
       { type: "mc", q: "I ___ (100%) wake up at 7.", options: ["always", "sometimes", "never"], answer: "always", exp: "100% = always." },
       { type: "mc", q: "Mia ___ (90%) has guitar lessons on Fridays.", options: ["usually", "rarely", "never"], answer: "usually", exp: "90% = usually." },
-      { type: "mc", q: "The twins ___ (70%) competed with each other.", options: ["often", "hardly ever", "always"], answer: "often", exp: "70% = often." },
+      { type: "mc", q: "The twins ___ (70%) compete with each other.", options: ["often", "hardly ever", "always"], answer: "often", exp: "70% = often." },
       { type: "mc", q: "Pickles ___ (50%) grabs my socks.", options: ["sometimes", "always", "never"], answer: "sometimes", exp: "50% = sometimes." },
       { type: "mc", q: "My cousin's pig ___ (10%) stays clean.", options: ["hardly ever", "usually", "often"], answer: "hardly ever", exp: "10% = hardly ever." },
       { type: "mc", q: "I ___ (5%) eat junk food.", options: ["rarely", "always", "usually"], answer: "rarely", exp: "5% = rarely." },
@@ -124,7 +124,7 @@ const TOPICS = [
       { type: "mc", q: "I don't like ___ shoes in the window over there.", options: ["this", "these", "those"], answer: "those", exp: "Far + plural → those." },
       { type: "mc", q: "___ is my house. (pointing at a house right here)", options: ["This", "These", "Those"], answer: "This", exp: "Near + singular → this." },
       { type: "mc", q: "___ are my keys, right here in my hand.", options: ["This", "These", "Those"], answer: "These", exp: "Near + plural → these." },
-      { type: "mc", q: "___ was a great movie we just watched.", options: ["This", "That", "These"], answer: "That", exp: "Referring back to something already finished → that." },
+      { type: "mc", q: "___ was a great movie we watched last month.", options: ["This", "That", "These"], answer: "That", exp: "Referring back to something in the past → that." },
       { type: "mc", q: "Can I have ___ apples, over there near you?", options: ["this", "these", "those"], answer: "those", exp: "Far + plural → those." },
       { type: "mc", q: "___ phone I'm holding is new.", options: ["This", "That", "Those"], answer: "This", exp: "Near + singular → this." },
       { type: "mc", q: "Choose the plural, near form:", options: ["this", "these", "those"], answer: "these", exp: "Near + plural → these." },
